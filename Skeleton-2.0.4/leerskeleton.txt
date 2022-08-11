@@ -1,0 +1,2 @@
+estos  3 archivos estaban en el archivo ocmprimido que baje de la paguina.viene un html un css y imagnes.
+la carpeta css adentro tiene dos tipos de archivos, uno llamado normalice.css y otro llamado esqueleton.css

@@ -1,0 +1,68 @@
+html{
+    font-size: 62.5%; /* a esto lo pongo al principio para poder trabajar en medidas rem */
+}
+
+
+body{
+    background-color:#D9D8D7;
+}
+h1{
+    text-align: center ;
+}
+h2{
+    font-size: 2.7rem;
+}
+
+/* hacer detalles de los botones que uso de linck en las tarjetitas  de borrar producto que estan en js
+ <td>
+           <a href="#" class="borrar-producto" data-id=${producto.id}> X</a> 
+ </td>
+tengo la clase :*/
+.borrar-producto{
+    background-color: #3D5473;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;/* esto va siempre EN TODAS LAS ANCLAS */
+    color: #594234;
+    font-weight: bold;
+}
+.card{
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+/* @media ( min-width: 550px){
+    .card{
+        text-align: left;
+    }
+} */
+.info-card{
+    padding: 1rem 2rem;
+}
+.info-card p{
+    margin-bottom: 5rem;
+
+}
+.info-card .precio{
+  text-decoration: line-through;   /*para que me aparezca tachado el precio, y sea como una oferta */
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+
+.info-card .oferta {/*  esta clase la hice nueva solo para poder ver la oferta bien */
+    text-decoration: none;
+    font-size: 2.8rem;
+    margin-top: 1rem;
+
+}
+.shadow{
+
+ font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-size: 60px;
+ color: #594234;
+ text-align: left;
+ text-shadow: 0 0 10px #3D5473;
+
+}

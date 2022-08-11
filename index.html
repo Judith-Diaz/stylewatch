@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paguina para comprar relojes</title>
+   <link rel="stylesheet" href="css/normalize.css">  
+   <link rel="stylesheet" href="css/skeleton.css">  
+   <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+<body>
+    <header>
+    <div id="Carrito">  <!-- cada vez que aggrego algo visual siempre es un alista o casi siempre -->
+       <table id="lista-carrito" class="u-full-width">
+        <thead>
+            <tr>
+                <th>Imagen </th>
+                <th>nombre</th>
+                <th>precio</th>
+                <th>cantidad </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+       </table>
+       <a href="" id="vaciar-carritoBTN"  class="button u-full-whith">Vaciar carrito</a>
+       
+    </div>
+   </header>
+    <!-- la interaccion del carrito la vamos a hacer entre <div class="card"></div> y esto  <div id="Carrito"></div> -->
+    <div id="lista-producto" >
+        <h1 class="shadow">Swatch® </h1>
+        <h2 > Style Store</h2>
+
+
+<div class="row" >
+
+
+    <div class=" three columns" width="138px" height="648px">
+
+        <div class="card">
+            <img src="https://stylewatch.vtexassets.com/arquivos/ids/213281-800-auto?width=800&height=auto&aspect=true"  alt="Relog importado"   class="u-full-width">
+              
+            <div class="info-card">
+                <h2>TIME'S MAGIC </h2>
+                <p class="descripcion">Reloj Swatch Time's Magic para mujer </p>
+                <p class="precio">$ 27.495- </p>
+                 <p class="oferta">$20.999</p><!-- agrego un p clas oferta como detalle para agregar a css una oferta -->
+                <a href="" class="agregar-al-carrito" data-id="1">Agregar al carrito</a>
+                <!-- Seria como hicimos con la marcianita  aca se genera un enlace que va air agregando cosas-->
+                <!--     la anterir  vez yo habia un recorrido del carrido a travez de in forEach, ahora lo voy a recoorer diferente -->
+
+            </div>
+        </div>
+   
+  </div>
+    
+  <div class=" three columns" width="138px" height="648px">
+
+    <div class="card">
+        <img src="https://static.swatch.com/images/product/SB03B110/sa200/SB03B110_sa200_er005.png" alt="Relog importado"  class="u-full-width">
+            
+        <div class="info-card">
+            <h2>BIG BOLD </h2>
+            <p class="descripcion">BIG BOLD BIOCERAMIC BASALT</p>
+            <p class="precio">$ 39.995 </p> 
+             <p class="oferta">$24.999</p><!-- agrego una p mas como detalle para agregar a css una oferta sin tachon-->
+            <a href="" class="agregar-al-carrito" data-id="2">Agregar al carrito</a><!-- Seria como hicimos con la marcianita -->
+        </div>
+    </div>
+</div>
+
+<div class="three columns" width="138px" height="648px">
+
+    <div class="card">
+        <img src="https://static.swatch.com/images/product/SYXG120M/sa200/SYXG120M_sa200_er005.png" alt="Relog importado"  class="u-full-width ">
+        <div class="info-card">
+            <h2>SKIN IRONY</h2>
+            <p class="descripcion">CONTRASTED SIMPLICITY</p>
+            <p class="precio">$ 60.495 </p>
+            <p class="oferta">$/50.999</p><!-- agrego una p clas mas oferta mas como detalle para agregar a css una oferta sin tachon-->
+            <a href="" class="agregar-al-carrito" data-id="3">Agregar al carrito</a><!-- Seria como hicimos con la marcianita le agregamos data- para seleccioanrlo  -->
+        </div>
+    </div>
+</div>
+
+<div class="three columns" width="138px" height="648px">
+    <div class="card">
+        <img src="https://static.swatch.com/images/product/SUOP110/sa200/SUOP110_sa200_er005.png"  class="u-full-width">
+        <div class="info-card">
+            <h2>SKIN REGULAR</h2>
+            <p class="descripcion">PINKSPARKLES</p>
+            <p class="precio">$ 16.995 </p>
+            <p class="oferta">$ 10.999</p><!-- agrego una p mas como detalle para agregar a css una oferta sin tachon-->
+            <a href="" class="agregar-al-carrito"data-id="4">Agregar al carrito</a>
+        </div>
+        
+    </div>
+   </div> 
+ 
+   </div>
+</div><!--  <div id="lista-producto"></div> ESTE CIERRA ACA, ACORDATE QUE NO TE TOMAVA LO DE JS PORQUE NO TENIAS CERRADO ESTE DIV DONCE TIENE QUE SER-->
+
+<br>
+    <footer> © SWATCH AG 2022, TODOS LOS DERECHOS RESERVADOS: RELOJES SUIZOS</footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
